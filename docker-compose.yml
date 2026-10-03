@@ -1,0 +1,25 @@
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: lights-mosquitto
+    restart: unless-stopped
+    user: "1000:1000"
+    ports:
+      - "127.0.0.1:1883:1883"
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./mosquitto/data:/mosquitto/data
+
+  zigbee2mqtt:
+    image: ghcr.io/koenkk/zigbee2mqtt:latest
+    container_name: lights-zigbee2mqtt
+    restart: unless-stopped
+    user: "1000:1000"
+    depends_on:
+      - mosquitto
+    ports:
+      - "8080:8080"
+    environment:
+      - TZ=America/Los_Angeles
+    volumes:
+      - ./zigbee2mqtt/data:/app/data

@@ -1,0 +1,3 @@
+# Runtime state; zigbee2mqtt/data holds the Zigbee network key once generated
+zigbee2mqtt/data/
+mosquitto/data/
