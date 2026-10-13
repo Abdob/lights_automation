@@ -1,0 +1,8 @@
+./turn_light.sh 01 on
+./turn_light.sh 02 on
+./turn_light.sh 03 on
+./turn_light.sh 04 on
+./turn_light.sh 05 on
+./turn_light.sh 06 on
+./turn_light.sh 07 on
+./turn_light.sh 08 on
