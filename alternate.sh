@@ -1,0 +1,11 @@
+./turn_light.sh 01 off
+./turn_light.sh 02 on
+./turn_light.sh 03 off
+./turn_light.sh 04 on
+./turn_light.sh 05 off
+./turn_light.sh 06 on
+./turn_light.sh 07 on
+./turn_light.sh 08 off
+./turn_light.sh 09 off
+./turn_light.sh 10 on
+./turn_light.sh 11 on

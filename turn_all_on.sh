@@ -6,3 +6,6 @@
 ./turn_light.sh 06 on
 ./turn_light.sh 07 on
 ./turn_light.sh 08 on
+./turn_light.sh 09 on
+./turn_light.sh 10 on
+./turn_light.sh 11 on
