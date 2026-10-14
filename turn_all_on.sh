@@ -9,3 +9,4 @@
 ./turn_light.sh 09 on
 ./turn_light.sh 10 on
 ./turn_light.sh 11 on
+./turn_light.sh 12 on
