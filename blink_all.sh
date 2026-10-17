@@ -22,3 +22,7 @@
 ./turn_light.sh 11 on
 ./turn_light.sh 12 off
 ./turn_light.sh 12 on
+./turn_light.sh 13 off
+./turn_light.sh 13 on
+./turn_light.sh 14 off
+./turn_light.sh 14 on

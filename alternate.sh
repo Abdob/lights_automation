@@ -1,4 +1,4 @@
-./turn_light.sh 01 off
+./turn_light.sh 01 on
 ./turn_light.sh 02 on
 ./turn_light.sh 03 off
 ./turn_light.sh 04 on
