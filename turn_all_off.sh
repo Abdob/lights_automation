@@ -10,3 +10,5 @@
 ./turn_light.sh 10 off 
 ./turn_light.sh 11 off
 ./turn_light.sh 12 off
+./turn_light.sh 13 off
+./turn_light.sh 14 off
